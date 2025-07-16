@@ -7,6 +7,14 @@ import UserNotifications
 #endif
 
 public class ExtensionPlatformInterface: NSObject, LibboxPlatformInterfaceProtocol, LibboxCommandServerHandlerProtocol {
+    public func localDNSTransport() -> (any LibboxLocalDNSTransportProtocol)? {
+        return nil
+    }
+    
+    public func systemCertificates() -> (any LibboxStringIteratorProtocol)? {
+        return nil
+    }
+    
     private let tunnel: ExtensionProvider
     private var networkSettings: NEPacketTunnelNetworkSettings?
 

@@ -1,7 +1,7 @@
 import Foundation
 
 public enum FilePath {
-    public static let packageName = "io.nekohasekai.sfavt"
+    public static let packageName = "ld.nekohasekai.sfavt"
 }
 
 public extension FilePath {

@@ -4,7 +4,7 @@
 <dict>
 	<key>com.apple.security.application-groups</key>
 	<array>
-		<string>group.io.nekohasekai.sfavt</string>
+		<string>group.ld.nekohasekai.sfavt</string>
 	</array>
 </dict>
 </plist>

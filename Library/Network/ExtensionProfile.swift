@@ -3,7 +3,7 @@ import Libbox
 import NetworkExtension
 
 public class ExtensionProfile: ObservableObject {
-    public static let controlKind = "io.nekohasekai.sfavt.widget.ServiceToggle"
+    public static let controlKind = "ld.nekohasekai.sfavt.widget.ServiceToggle"
 
     private let manager: NEVPNManager
     private var connection: NEVPNConnection
